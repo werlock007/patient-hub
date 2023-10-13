@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+WORKDIR /app
+COPY target/patient-hub*.jar /app/patient-hub.jar
+CMD java -jar /app/patient-hub.jar --spring.profiles.active=dev

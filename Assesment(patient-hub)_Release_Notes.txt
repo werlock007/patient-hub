@@ -1,0 +1,13 @@
+straumann.group.patienthub
+
+1.Swagger is configured for the app.
+2.Caching is implemented only in patients service for sample.
+3.Test case written for patient service class and controller.
+4.Using properties file we can deploy to multiple envs like dev,qa,uat, prod etc.
+5.Dockerfile created.
+6.One ppt slide is added which shows the pipeline.
+7.Communication should be happen between client and service with DTO's n.ot the entities for the sample that is only implement in Doctor serviceImpl
+
+
+Notes:
+While creation object we should start with Insurance and doctor this are the independent entities
